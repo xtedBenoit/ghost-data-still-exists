@@ -1,0 +1,4 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_extra_01,lucas.moreau@fastmail.com,2026-09-10T08:00:00Z,COMPLETE,2026-09-11T08:00:00Z,2026-09-25T12:00:00Z,Please completely erase my account and all associated personal data from your systems.
+case_extra_02,fatima.zahra@gmail.com,2026-09-12T09:00:00Z,COMPLETE,2026-09-13T09:00:00Z,2026-09-28T12:00:00Z,I request permanent deletion of all data linked to my user profile.
+case_extra_03,claire.dubois@orange.fr,2026-09-15T10:00:00Z,NOT_STARTED,2026-09-16T10:00:00Z,2026-09-30T12:00:00Z,"Bonjour, conformément à l'article 15 du RGPD, je souhaite exercer mon droit d'accès et recevoir l'intégralité des données personnelles vous concernant mon compte. Je ne souhaite pas supprimer mon compte."

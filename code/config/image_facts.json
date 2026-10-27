@@ -1,0 +1,204 @@
+{
+  "evidence_04": {
+    "file_id": "evidence_04",
+    "origin": "account_admin_portal",
+    "captured_at": "2026-09-26T11:00:00Z",
+    "records": [
+      {
+        "system_id": "account_service",
+        "resource_id": "account_5762",
+        "record_type": "USER_PROFILE",
+        "user_id": "user_11",
+        "full_name": "Haruka Sato",
+        "email": "haruka.s1838@zoho.com",
+        "phone": "+81 90 7610 2507",
+        "state": "PRESENT",
+        "account_status": "ACTIVE",
+        "orders": ["ORD-20265762", "ORD-20265518"],
+        "support_ticket": "support_9538"
+      }
+    ]
+  },
+  "evidence_09": {
+    "file_id": "evidence_09",
+    "origin": "search_index_service",
+    "captured_at": "2026-09-01T06:00:14Z",
+    "records": [
+      {
+        "system_id": "search_service",
+        "resource_id": "search_428",
+        "record_type": "SEARCH_INDEX_ENTRY",
+        "user_id": "user_13",
+        "full_name": "Gabriel Silva",
+        "email": "g.silva76@gmail.com",
+        "state": "PRESENT"
+      },
+      {
+        "system_id": "search_service",
+        "resource_id": "search_1874",
+        "record_type": "SEARCH_INDEX_ENTRY",
+        "user_id": "user_13",
+        "email": "g.silva76.jr@gmail.com",
+        "state": "PRESENT"
+      }
+    ]
+  },
+  "evidence_14": {
+    "file_id": "evidence_14",
+    "origin": "integration_admin",
+    "captured_at": "2026-08-07T08:00:00Z",
+    "records": [
+      {
+        "system_id": "integration_service",
+        "resource_id": "data_flow_1121",
+        "record_type": "ACTIVE_DATA_FLOW",
+        "email": "jain.aditi@gmail.com",
+        "state": "ACTIVE",
+        "enabled": true
+      },
+      {
+        "system_id": "integration_service",
+        "resource_id": "data_flow_9846",
+        "record_type": "ACTIVE_DATA_FLOW",
+        "email": "lucia-torres@gmail.com",
+        "state": "ACTIVE",
+        "enabled": true
+      }
+    ]
+  },
+  "evidence_19": {
+    "file_id": "evidence_19",
+    "origin": "analytics_platform",
+    "captured_at": "2026-07-13T10:00:00Z",
+    "records": [
+      {
+        "system_id": "analytics_platform",
+        "resource_id": "analytics_7438",
+        "record_type": "ANALYTICS_PROFILE",
+        "user_id": "user_20",
+        "full_name": "Omar Darwish",
+        "email": "darwish.omar@icloud.com",
+        "state": "PRESENT",
+        "is_anonymized": false
+      }
+    ]
+  },
+  "evidence_23": {
+    "file_id": "evidence_23",
+    "origin": "export_service",
+    "captured_at": "2026-06-18T12:00:00Z",
+    "records": [
+      {
+        "system_id": "export_service",
+        "resource_id": "export_1260",
+        "record_type": "USER_EXPORT",
+        "email": "ingrid.dahl@outlook.com",
+        "state": "PRESENT"
+      }
+    ]
+  },
+  "evidence_28": {
+    "file_id": "evidence_28",
+    "origin": "support_platform",
+    "captured_at": "2026-05-24T07:00:00Z",
+    "records": [
+      {
+        "system_id": "support_platform",
+        "resource_id": "support_1034",
+        "record_type": "SUPPORT_MESSAGE",
+        "full_name": "Kofi Agyeman",
+        "email": "kagyeman8947@fastmail.com",
+        "state": "PRESENT",
+        "is_redacted": false
+      }
+    ]
+  },
+  "evidence_32": {
+    "file_id": "evidence_32",
+    "origin": "backup_service",
+    "captured_at": "2026-04-29T09:00:00Z",
+    "records": [
+      {
+        "system_id": "backup_service",
+        "resource_id": "backup_9287",
+        "record_type": "BACKUP_ARCHIVE",
+        "email": "areed1433@gmail.com",
+        "state": "ACTIVE",
+        "restore_allowed": true
+      }
+    ]
+  },
+  "evidence_37": {
+    "file_id": "evidence_37",
+    "origin": "security_service",
+    "captured_at": "2026-09-05T07:00:00Z",
+    "records": [
+      {
+        "system_id": "security_service",
+        "resource_id": "audit_record_003",
+        "record_type": "SECURITY_AUDIT_LOG",
+        "user_id": "user_03",
+        "state": "PRESENT"
+      }
+    ]
+  },
+  "evidence_42": {
+    "file_id": "evidence_42",
+    "origin": "identity_service",
+    "captured_at": "2026-03-10T06:00:00Z",
+    "records": [
+      {
+        "system_id": "identity_service",
+        "resource_id": "tombstone_user_17",
+        "record_type": "ACCOUNT_TOMBSTONE",
+        "user_id": "user_17",
+        "state": "REDACTED",
+        "is_redacted": true
+      }
+    ]
+  },
+  "evidence_46": {
+    "file_id": "evidence_46",
+    "origin": "object_storage",
+    "captured_at": "2026-02-13T08:00:00Z",
+    "records": [
+      {
+        "system_id": "support_platform",
+        "resource_id": "attachment_19",
+        "record_type": "SUPPORT_ATTACHMENT",
+        "filename": "delivery_confirmation_19.pdf",
+        "state": "PRESENT"
+      },
+      {
+        "system_id": "support_platform",
+        "resource_id": "attachment_20",
+        "record_type": "SUPPORT_ATTACHMENT",
+        "filename": "delivery_confirmation_20.pdf",
+        "state": "PRESENT"
+      },
+      {
+        "system_id": "support_platform",
+        "resource_id": "attachment_7713",
+        "record_type": "SUPPORT_ATTACHMENT",
+        "filename": "parcel_damage_7713.jpg",
+        "state": "PRESENT"
+      }
+    ]
+  },
+  "evidence_60": {
+    "file_id": "evidence_60",
+    "origin": "marketing_platform",
+    "captured_at": "2026-09-16T07:20:00Z",
+    "records": [
+      {
+        "system_id": "marketing_platform",
+        "resource_id": "marketing_001",
+        "record_type": "MARKETING_PROFILE",
+        "full_name": "Soo-jin Park",
+        "email": "sj.park@naver.com",
+        "phone": "+82 10-5837-9451",
+        "state": "PRESENT"
+      }
+    ]
+  }
+}

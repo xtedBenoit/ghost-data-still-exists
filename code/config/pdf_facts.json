@@ -1,0 +1,68 @@
+{
+  "evidence_18": {
+    "file_id": "evidence_18",
+    "origin": "account_history_service",
+    "captured_at": "2026-07-18T11:00:00Z",
+    "records": [
+      {
+        "system_id": "account_history_service",
+        "resource_id": "statement_NST_2026_0718_1842",
+        "record_type": "USER_PROFILE",
+        "user_id": "user_18",
+        "full_name": "Ingrid Dahl",
+        "email": "ingrid.dahl@outlook.com",
+        "order_id": "ORD-20261260",
+        "state": "PRESENT"
+      }
+    ]
+  },
+  "evidence_27": {
+    "file_id": "evidence_27",
+    "origin": "legal_retention_service",
+    "captured_at": "2026-05-29T08:00:00Z",
+    "records": [
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264118", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_08", "order_id": "ORD-20264118", "state": "PRESENT"},
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264207", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_12", "order_id": "ORD-20264207", "state": "PRESENT"},
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264319", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_17", "order_id": "ORD-20264319", "state": "PRESENT"},
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264402", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_21", "order_id": "ORD-20264402", "state": "PRESENT"},
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264511", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_24", "order_id": "ORD-20264511", "state": "PRESENT"},
+      {"system_id": "legal_retention_service", "resource_id": "legal_hold_ORD_20264600", "record_type": "LEGAL_HOLD_RECORD", "user_id": "user_29", "order_id": "ORD-20264600", "state": "PRESENT"}
+    ]
+  },
+  "evidence_55": {
+    "file_id": "evidence_55",
+    "origin": "security_service",
+    "captured_at": "2026-09-05T06:30:00Z",
+    "records": [
+      {
+        "system_id": "security_service",
+        "resource_id": "audit_record_003",
+        "record_type": "SECURITY_AUDIT_LOG",
+        "user_id": "user_03",
+        "state": "PRESENT",
+        "event_name": "Account closure recorded",
+        "recorded_at": "2026-08-25T04:03:00Z",
+        "retain_until": "2027-08-25T04:03:00Z"
+      }
+    ]
+  },
+  "evidence_58": {
+    "file_id": "evidence_58",
+    "origin": "support_platform",
+    "captured_at": "2026-09-12T07:30:00Z",
+    "records": [
+      {
+        "system_id": "support_platform",
+        "resource_id": "support_001",
+        "record_type": "SUPPORT_MESSAGE",
+        "ticket_ref": "CS-4827",
+        "full_name": "Priya Raman",
+        "email": "priya.raman@gmail.com",
+        "phone": "+91 98765 73142",
+        "order_id": "ORD-20264827",
+        "state": "PRESENT",
+        "is_redacted": false
+      }
+    ]
+  }
+}
